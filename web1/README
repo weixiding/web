@@ -1,0 +1,19 @@
+spring-boot与spring data jpa的整合
+
+需要注意的几个问题点：
+第一点：由于没有传统开发的目录结构，那么我们的jsp或者html放在哪个位置呢？
+    放在resources下的static目录中
+第二点：我们如何配置我们的数据库连接的配置文件呢？
+    在resources文件夹下创建application.properties配置文件，这就是spring-boot的核心配置文件。
+
+第三点：如何整合mybatis
+第四点：如何整合redis
+第五点：整合junit
+第六点：spring-boot读取核心配置文件
+    spring-boot给我们提供了一个变量private Environment env
+
+    env.getProperty("keyname");
+
+第七点：
+
+
